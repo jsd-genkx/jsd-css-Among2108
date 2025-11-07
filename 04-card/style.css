@@ -147,7 +147,7 @@ body {
 .card button::after,
 .card button::before {
   content: "";
-   display: block;
+  display: block;
   width: 0;
   height: 2px;
   background-color: #000000;
