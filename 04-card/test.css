@@ -1,0 +1,29 @@
+
+.button24 {
+   width: 160px;
+   height: 60px;
+   color: #e20909;
+   cursor: pointer;
+   border: none;
+   font-size: 16px;
+   font-weight: bold;
+   text-align: center;
+   background: none;
+}
+.button24::before {
+   margin-left: auto;
+}
+.button24::after,
+.button24::before {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: #850a0a;
+  display: block;
+  margin: 10px 0;
+  transition: 0.5s;
+}
+.button24:hover::after,
+.button24:hover::before {
+  width: 100%;
+}
