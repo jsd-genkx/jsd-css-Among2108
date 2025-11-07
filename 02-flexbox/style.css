@@ -4,8 +4,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 :root {
-	--color-primary: #0d4663;
-	--color-secondary: #135492;
+	--color-primary: #006192;
+	--color-secondary: #05182b;
 	--color-accent: #ff9a88;
 
 	--color-black: #111;
@@ -27,14 +27,16 @@ body {
 	min-height: 100dvh;
 
 	display: flex;
-	/* gap: 1rem; */
-	/* justify-content: center; */
-	/* align-items: center; */
-	/* align-content: center; */
-	/* flex-wrap: wrap; */
+	/* gap : 1rem;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap; */
 
 	/* flex-direction: column; */
 	/* height: 90vh; */
+
+
 }
 
 .box {
